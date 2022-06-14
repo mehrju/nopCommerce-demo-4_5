@@ -1,0 +1,30 @@
+﻿@using Nop.Plugin.BookPlugin.Domains
+@using Nop.Web.Framework.Models.DataTables
+@model List<Book>
+
+@{
+    //page title
+    ViewBag.PageTitle = T("Books List").Text;
+    //active menu item (system name)
+    NopHtml.SetActiveMenuItemSystemName("Book list");
+}
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Publish Date</th>
+    </tr>
+
+    @foreach (var data in Model)
+    {
+        <tr>
+            <td>@data.Id</td>
+            <td>@data.Name</td>
+            <td>@data.Author</td>
+            <td>@data.PublishDate</td>
+        </tr>
+    }
+
+</table>

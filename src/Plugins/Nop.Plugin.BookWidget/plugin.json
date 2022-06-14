@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Books",
+  "FriendlyName": "Showing Books",
+  "SystemName": "Bs23_Widget.ShowBooks",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "BS-23",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.BookWidget.dll",
+  "Description": "This plugin shows books."
+}

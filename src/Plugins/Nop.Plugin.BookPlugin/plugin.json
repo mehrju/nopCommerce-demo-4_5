@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Feature",
+  "FriendlyName": "Showing Books",
+  "SystemName": "BookPlugin",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "BS-23",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.BookPlugin.dll",
+  "Description": "This plugin shows books."
+}
